@@ -1,9 +1,0 @@
-org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-  com.chord.framework.autoconfiguration.ApplicationAvailabilityAutoConfiguration,\
-  com.chord.framework.autoconfiguration.AvailabilityHealthWebExtensionConfiguration,\
-  com.chord.framework.autoconfiguration.AvailabilityHealthEndpointConfiguration,\
-  com.chord.framework.autoconfiguration.AvailabilityHealthContributorAutoConfiguration,\
-  com.chord.framework.autoconfiguration.ChordWebEndpointAutoConfiguration
-
-org.springframework.boot.SpringApplicationRunListener=\
-  com.chord.framework.common.actuator.health.event.AvailabilityApplicationListener
